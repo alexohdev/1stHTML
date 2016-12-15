@@ -1,0 +1,86 @@
+/*
+Sélectionner une balise (tag) grâce à son nom
+*/
+a{
+	/* Définir la couleur */
+	color: red;
+
+	/* Modifier le soulignement */
+	text-decoration: none;
+}
+
+/*
+Sélectionner une balise grâce à son attribut (CSS3)
+*/
+[target="_blank"]{
+	text-decoration: underline;
+}
+
+/*
+Sélectionner DES balises grâce à leur .CLASS
+*/
+.colorGreen{
+	color: green;
+}
+
+/*
+Sélectionner UNE balise grâce à son #ID
+*/
+#presentationSection{
+	/* Définir la couleur de fond de la balise */
+	background-color: grey;
+
+	/* Ajouter une marge interieur */
+	padding: 10px;
+}
+
+
+/*
+Sélectionner une balise en précisant le chemin
+*/
+#presentationSection p{
+	color: white;
+
+	/* Définir l'alignement d'un paragraphe */
+	text-align: right;
+}
+
+
+/*
+Changer le type des balises LI
+*/
+li{
+	display: inline;
+
+	/* Ajouter une marge exterieur à droite */
+	margin-right: 10px;
+}
+
+
+ul{
+	/* Modifier la marge interieur */
+	padding: 0;
+
+	/* Modifier la marge exterieur */
+	margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
