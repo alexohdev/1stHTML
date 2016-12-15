@@ -1,0 +1,12 @@
+body{
+
+	font-family: helvetica;
+	size: 20px;
+	color: red;
+}
+
+#photo_minion{
+
+	width: 100px;
+	height: auto; 
+}
